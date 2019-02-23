@@ -155,8 +155,6 @@ a:hover {
   -o-transform: scale(1.05) rotate(360deg);
 }
 .site-branding {
-  padding: 55px 0;
-  padding-bottom: 50px;
   overflow: hidden;
   display: inline-block;
   float: left;
