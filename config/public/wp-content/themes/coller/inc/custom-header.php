@@ -24,7 +24,7 @@
  */
 function coller_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'coller_custom_header_args', array(
-		'default-image'          => get_template_directory_uri().'/assets/images/header.jpg',
+		'default-image'          => get_template_directory_uri().'/assets/images/banner-bg.png',
 		'default-text-color'     => '#ffffff',
 		'width'  				 => 1440,
 		'height'				 => 380,
@@ -35,8 +35,8 @@ function coller_custom_header_setup() {
 	) ) );
     register_default_headers( array(
             'default-image'    => array(
-                'url'            => '%s/assets/images/header.jpg',
-                'thumbnail_url'    => '%s/assets/images/header.jpg',
+                'url'            => '%s/assets/images/banner-bg.png',
+                'thumbnail_url'    => '%s/assets/images/banner-bg.png',
                 'description'    => __('Default Header Image', 'coller')
             )
         )
