@@ -55,7 +55,7 @@ function coller_header_style() {
 	<style>
 	#masthead {
 			background-image: url(<?php header_image(); ?>);
-			background-size: <?php echo get_theme_mod('coller_himg_style','cover'); ?>;
+			background-size: <?php echo get_theme_mod('coller_himg_style','auto'); ?>;
 			background-position-x: <?php echo get_theme_mod('coller_himg_align','center'); ?>;
 			background-repeat: <?php echo  get_theme_mod('coller_himg_repeat') ? "repeat" : "no-repeat" ?>;
 		}
