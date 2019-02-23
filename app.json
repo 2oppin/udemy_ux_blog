@@ -1,0 +1,21 @@
+{
+  "name": "WP sample",
+  "description": "Example of Wordpress site deployment by 2oppin",
+  "repository": "https://github.com/2oppin/heroku-wp",
+  "addons": [
+    {
+      "plan": "cleardb:ignite"
+    },
+    {
+      "plan": "memcachier:dev"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    },
+    {
+      "url": "https://github.com/2oppin/heroku-wp-buildpack"
+    }
+  ]
+}
