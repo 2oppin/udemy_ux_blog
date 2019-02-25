@@ -1,0 +1,3 @@
+config/public
+!config/public/wp-content/
+!config/public/wp-config.php

@@ -43,11 +43,11 @@
 /* Globals */
 body {
   font-family: "Lato", sans-serif;
-  background: #f7f7f7;
+  background: #babf99;
   word-wrap: break-word;
 }
 .mega-container {
-  background: #f7f7f7;
+  background: #babf99;
   max-width: 1170px;
   margin: auto;
   margin-top: 20px;
@@ -177,6 +177,10 @@ a:hover {
     float: none;
   }
 }
+header .container {
+  padding-left: 0;
+  margin-left: 0;
+}
 #social-search {
   background: #e3e3e3;
   padding: 16px 10px;
@@ -274,7 +278,7 @@ a:hover {
   width: 100%;
   clear: none;
   display: inline-block;
-  background: #eaeaea;
+  background: #577d53;
   margin-bottom: 20px;
 }
 #site-navigation ul {
@@ -291,10 +295,14 @@ a:hover {
   font-size: 15px;
   background: none;
   border-top: solid 3px transparent;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 5px;
+  background-size: 8px;
+  background-image: url(/wp-content/themes/coller/assets/images/nav-sep.png);
 }
 #site-navigation ul li:hover a {
   background: #f2f2f2;
-  border-top: solid 3px #79cb5e;
 }
 #site-navigation ul li ul li .menu-desc {
   display: none;
@@ -364,7 +372,6 @@ a:hover {
 }
 #site-navigation ul li ul.sub-menu a:hover,
 #site-navigation ul li ul.children a:hover {
-  background: #79cb5e;
   color: #f7f7f7;
 }
 #site-navigation ul li:hover ul.sub-menu,
